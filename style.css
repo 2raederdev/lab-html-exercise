@@ -1,3 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+<!-- Color background section 1: #F8F4F4    -->
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: red;
+    font-family: poppins, sans-serif;
+    background-color: #F8F4F4;
   }
+
+#section1 {
+    background-color: red;
+    width: 84%;
+    padding: 75px 0;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .white-background {
+    background-color: white;
+  }
+
+  #section2 {
+    width: 84%;
+    padding: 55px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parallelogram {
+    font-size: 2.25em;
+    font-weight: 600;
+    font-style: none;
+    margin-top: 20px;
+    background: #FFEBAE;
+    text-align: center;
+    padding: 0 30px;
+}
+
+#section2 img {
+    height: 230px;
+    width:256px;
+    margin: 0 0 50px 0;
+}
+
+#section2 article {
+    width: 50%;
+    text-align: center;
+    margin-top: 0;
+    font-size: 1em;
+
+  }
+
+#section3 {
+    width: 84%;
+    padding: 40px 0;
+    margin: 0 auto;
+  }
+  
+#section3 img {
+    height: 32px;
+    width: 39px;
+    margin: 0;
+  }
+
+  /* modified for flexbox */
+#section3 > div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10%;
+  /*   flex-direction: row; */
+  }
+  
+  /* modified for flexbox */
+#section3 > div > article {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 250px;
+    height: 180px;
+    padding: 75px 0;
+    margin: 0 auto;
+  }
+
+  .tt3 {
+      color: #ED1C24;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-top: 8%;
+      line-height: 1.5;
+  }
+
+  #black-button {
+    position: relative;
+    color: white;
+    background-color: black;
+    width: 350px;
+    height: 30px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 1000;
+    padding: 20px;
+    box-shadow: 8px 8px 0 0 rgb(128,83,35,.2);
+    cursor: pointer;
+
+}
+
