@@ -8,10 +8,128 @@
     padding: 0;
     }
 
-body{
+body {
     font-family: poppins, sans-serif;
     background-color: #F8F4F4;
   }
+
+header {
+    background-color: white;
+}
+
+header > div {
+    width: 84%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray ;
+}
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+.second-line {
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+.npm-logo {
+    height: 22px;
+    width: 70px;
+    margin: 16px 0;  
+    position: relative;
+    margin-right:10px;
+}
+
+.search-loupe {
+    height: 20px;
+    width: 20px;
+    background-color: #F8F4F4;
+    padding: 11px 5px 11px 15px;
+    position: relative;
+    display:flex;
+    margin-right: 0;
+}
+
+#search {
+    height: 12px;
+    width: 1100px;
+    background-color: #F8F4F4;
+    padding: 15px;
+    border: none;
+    margin: 20px 0;
+    display:flex;
+}
+
+.join-login-links {
+    position: absolute;
+    right: 140px;
+}
+
+.button-search {
+    height: 42px;
+    background-color: rgb(251, 62, 68);
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+#join-link {
+    color: rgb(89, 87, 87);
+    border: 1px solid rgba(89, 87, 87);
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 20px 5px;
+    font-size: 0.8em; 
+    font-weight: bold;
+}
+
+#join-link:hover {
+    border: 1px solid rgb(204, 177, 177, 0.7);
+    color: rgb(204, 177, 177, 0.7);
+}
+
+#login-link {
+    color: rgb(89, 87, 87);
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 20px 5px;
+    font-size: 0.8em; 
+    font-weight: bold;
+}
+
+#login-link:hover {
+    color: rgb(204, 177, 177, 0.7);
+}
+
+#header-part-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
 #section1 {
     background-color: #F8F4F4;
@@ -54,7 +172,6 @@ body{
     font-size: 1.2em;
     font-weight: 800;
     padding: 20px;
-    cursor: pointer;
 }
 
 .button2 {
@@ -68,7 +185,6 @@ body{
     font-size: 1.2em;
     font-weight: 800;
     padding: 20px;
-    cursor: pointer;
 }
 
 
