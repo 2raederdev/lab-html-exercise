@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800&display=swap');
 
 
-<!-- Color background section 1: #F8F4F4    -->
-
 * {
     margin: 0;
     padding: 0;
@@ -11,20 +9,28 @@
 body {
     font-family: poppins, sans-serif;
     background-color: #F8F4F4;
-  }
+}
 
 header {
     background-color: white;
 }
 
 header > div {
+    align-items: center;
+    border-bottom: 1px solid lightgray ;
+}
+
+header div.line {
     width: 84%;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid lightgray ;
+}
+
+header div.first-line div.line {
+    justify-content: space-between;
+    padding: 15px 20px;
 }
   
   nav {
@@ -74,7 +80,7 @@ header > div {
 
 #search {
     height: 12px;
-    width: 1100px;
+    width: 1000px;
     background-color: #F8F4F4;
     padding: 15px;
     border: none;
@@ -156,7 +162,7 @@ header > div {
   #section1 article {
     text-align: center;
     width: 33%;
-    margin: 0 auto;
+    margin: 30px auto;
     font-size: 1.2em;
   }
 
@@ -232,6 +238,8 @@ header > div {
     background: #FFEBAE;
     text-align: center;
     padding: 0 30px;
+    transform: skew(9deg,0deg);
+    font-style: italic;
 }
 
 #section2 img {
@@ -243,7 +251,7 @@ header > div {
 #section2 article {
     width: 50%;
     text-align: center;
-    margin-top: 0;
+    margin-top: 30px;
     font-size: 1em;
 
   }
@@ -274,6 +282,10 @@ header > div {
     height: 180px;
     padding: 75px 0;
     margin: 0 auto;
+  }
+
+  #section3 > div > article p {
+      margin-top: 20px;
   }
 
   .tt3 {
